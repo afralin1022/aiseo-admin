@@ -1,0 +1,26 @@
+/* 自定義滾動條 */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+/* 類 Excel 輸入框聚焦效果 */
+.excel-input:focus {
+    background-color: #f0f7ff;
+    border-color: #3b82f6;
+    outline: none;
+}
+
+/* 側邊欄啟動狀態 */
+.nav-active {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* 隱藏區塊 */
+.hidden {
+    display: none !important;
+}
